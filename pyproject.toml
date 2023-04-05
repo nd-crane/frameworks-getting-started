@@ -5,7 +5,10 @@ description = ""
 authors = [
     {name = "Peter Ainsworth", email = "painswor@nd.edu"},
 ]
-dependencies = []
+dependencies = [
+    "nbdev>=2.3.12",
+    "setuptools>=67.6.1",
+]
 requires-python = ">=3.9"
 license = {text = "MIT"}
 
