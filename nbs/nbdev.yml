@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "frameworks-getting-started"
+  site-url: "https://nd-crane.github.io/frameworks-getting-started"
+  description: "getting started repository for framework's best practices"
+  repo-branch: main
+  repo-url: "https://github.com/nd-crane/frameworks-getting-started"
