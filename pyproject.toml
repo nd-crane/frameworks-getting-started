@@ -1,7 +1,7 @@
 [project]
-name = ""
-version = ""
-description = ""
+name = "frameworks-gettins-started"
+version = "1.0.0"
+description = "a getting started repository for framework's best practices"
 authors = [
     {name = "Peter Ainsworth", email = "painswor@nd.edu"},
 ]

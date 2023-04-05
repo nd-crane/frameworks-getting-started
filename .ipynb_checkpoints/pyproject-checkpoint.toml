@@ -1,14 +1,19 @@
 [project]
-name = ""
-version = ""
-description = ""
+name = "frameworks-gettins-started"
+version = "1.0.0"
+description = "a getting started repository for framework's best practices"
 authors = [
     {name = "Peter Ainsworth", email = "painswor@nd.edu"},
 ]
-dependencies = []
+dependencies = [
+    "nbdev>=2.3.12",
+    "setuptools>=67.6.1",
+]
 requires-python = ">=3.9"
 license = {text = "MIT"}
 
 [build-system]
 requires = ["pdm-pep517>=1.0.0"]
 build-backend = "pdm.pep517.api"
+
+[tool.pdm]
