@@ -2,6 +2,20 @@
 # It is not intended for manual editing.
 
 [[package]]
+requires_python = ">=3.9"
+path = "./."
+summary = ""
+dependencies = [
+    "dvc>=2.53.0",
+    "ipykernel>=6.22.0",
+    "jupyter>=1.0.0",
+    "nbdev>=2.3.12",
+    "papermill>=2.4.0",
+    "setuptools>=67.6.1",
+    "torch>=2.0.0",
+]
+
+[[package]]
 name = "aiohttp"
 version = "3.8.4"
 requires_python = ">=3.6"
@@ -1725,7 +1739,7 @@ summary = "Backport of pathlib-compatible object wrapper for zip files"
 
 [metadata]
 lock_version = "4.1"
-content_hash = "sha256:1d1476248fde78ccca16b780c7b013fb71754c4f395a9687ae0ce2b1fba12bcc"
+content_hash = "sha256:47b2bf9b2d7614e440c60c50125233c74c00ef989d02cb443a11685bfc6a77e8"
 
 [metadata.files]
 "aiohttp 3.8.4" = [

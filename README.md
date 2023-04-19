@@ -15,7 +15,7 @@ for refrence. These both include scale implementations of the frameworks
 toolkit.
 
 1.  [Natural Language Processing on FAA
-    Data](https://github.com/nd-crane/frameworks-getting-started) -\>
+    Data](https://github.com/nd-crane/Explain2Me-Framework-Exampled) -\>
     This repo contains a full knoweledge extraction pipeline from data
     collection to model training and inference using the tools and best
     practices detailed below.
