@@ -1,0 +1,9 @@
+website:
+  sidebar:
+    contents:
+      - index.ipynb
+      - 00_pdm_setup.ipynb
+      - 01_nbdev_setup.ipynb
+      - 02_dvc_setup.ipynb
+      - 03_file_structure.ipynb
+      - 04_dvc_pipeline.ipynb

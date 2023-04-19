@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A getting started repository for framework’s best practices">
 
-<title>frameworks-getting-started</title>
+<title>frameworks-getting-started - Setting Up DVC</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,6 +20,69 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 
@@ -62,11 +124,11 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="frameworks-getting-started">
-<meta property="og:description" content="A getting started repository for framework's best practices">
+<meta property="og:title" content="frameworks-getting-started - Setting Up DVC">
+<meta property="og:description" content="Data Version Control serves two purposes for our framework.">
 <meta property="og:site-name" content="frameworks-getting-started">
-<meta name="twitter:title" content="frameworks-getting-started">
-<meta name="twitter:description" content="A getting started repository for framework's best practices">
+<meta name="twitter:title" content="frameworks-getting-started - Setting Up DVC">
+<meta name="twitter:description" content="Data Version Control serves two purposes for our framework.">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -86,7 +148,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">frameworks-getting-started</h1>
+      <h1 class="quarto-secondary-nav-title">Setting Up DVC</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -101,7 +163,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">frameworks-getting-started</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">frameworks-getting-started</a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -116,7 +178,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./dvc_setup.html" class="sidebar-item-text sidebar-link">Setting Up DVC</a>
+  <a href="./dvc_setup.html" class="sidebar-item-text sidebar-link active">Setting Up DVC</a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -138,13 +200,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#example-projects" id="toc-example-projects" class="nav-link active" data-scroll-target="#example-projects">Example Projects</a></li>
-  <li><a href="#recommended-tools" id="toc-recommended-tools" class="nav-link" data-scroll-target="#recommended-tools">Recommended Tools</a>
-  <ul class="collapse">
-  <li><a href="#pdm" id="toc-pdm" class="nav-link" data-scroll-target="#pdm">PDM</a></li>
-  <li><a href="#nbdev" id="toc-nbdev" class="nav-link" data-scroll-target="#nbdev">nbdev</a></li>
-  <li><a href="#dvc" id="toc-dvc" class="nav-link" data-scroll-target="#dvc">DVC</a></li>
-  </ul></li>
+  <li><a href="#installation" id="toc-installation" class="nav-link active" data-scroll-target="#installation">Installation</a></li>
+  <li><a href="#initialization" id="toc-initialization" class="nav-link" data-scroll-target="#initialization">Initialization</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/nd-crane/frameworks-getting-started/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
@@ -153,14 +210,9 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">frameworks-getting-started</h1>
+<h1 class="title d-none d-lg-block">Setting Up DVC</h1>
 </div>
 
-<div>
-  <div class="description">
-    A getting started repository for framework’s best practices
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -174,40 +226,23 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <!-- WARNING: THIS FILE WAS AUTOGENERATED! DO NOT EDIT! -->
-<p>This written tutorial will show you how to setup and use the tools and best practices developed by the frameworks team. These best practices were inspired and developed from this <a href="https://github.com/nd-crane/framework-example">framework example</a>.</p>
-<section id="example-projects" class="level2">
-<h2 class="anchored" data-anchor-id="example-projects">Example Projects</h2>
-<p>In addition to this tutorial two other github repositories can be used for refrence. These both include scale implementations of the frameworks toolkit.</p>
+<p><a href="dvc.org">Data Version Control</a> serves two purposes for our framework.</p>
 <ol type="1">
-<li><a href="https://github.com/nd-crane/frameworks-getting-started">Natural Language Processing on FAA Data</a> -&gt; This repo contains a full knoweledge extraction pipeline from data collection to model training and inference using the tools and best practices detailed below.</li>
-<li><a href="https://github.com/nd-crane/Explain2Me-Framework-Example">Computer Vision analysis on Facial Recongition</a> -&gt; This repo contains analysis on GradCAM output and emphasizes our way of experimentation.</li>
+<li>It allows us to track large data files that cannot be uploaded to GitHub using the <code>dvc.lock</code> file.</li>
+<li>It gives structure to our project by properly defining a pipeline with inputs, outputs, parameters, metrics and visualizations.</li>
 </ol>
+<section id="installation" class="level3">
+<h3 class="anchored" data-anchor-id="installation">Installation</h3>
+<p>DVC should be installed like any other package by running:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pdm</span> add dvc</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="recommended-tools" class="level2">
-<h2 class="anchored" data-anchor-id="recommended-tools">Recommended Tools</h2>
-<section id="pdm" class="level3">
-<h3 class="anchored" data-anchor-id="pdm">PDM</h3>
-<blockquote class="blockquote">
-<p>PDM, as described, is a modern Python package and dependency manager supporting the latest PEP standards. But it is more than a package manager. It boosts your development workflow in various aspects. The most significant benefit is it installs and manages packages in a similar way to npm that doesn’t need to create a virtualenv at all!</p>
-<p>— <a href="https://pdm.fming.dev/latest/#introduction">PDM Documentation</a></p>
-</blockquote>
-</section>
-<section id="nbdev" class="level3">
-<h3 class="anchored" data-anchor-id="nbdev">nbdev</h3>
-<blockquote class="blockquote">
-<p>Create delightful software with Jupyter Notebooks. Write, test, document, and distribute software packages and technical articles — all in one place, your notebook.</p>
-<p>— <a href="https://nbdev.fast.ai/">nbdev Documentation</a></p>
-</blockquote>
-</section>
-<section id="dvc" class="level3">
-<h3 class="anchored" data-anchor-id="dvc">DVC</h3>
-<blockquote class="blockquote">
-<p>DVC is built to make ML models shareable and reproducible. It is designed to handle large files, data sets, machine learning models, and metrics as well as code.</p>
-<p>— <a href="https://dvc.org/">DVC Documentation</a></p>
-</blockquote>
+<section id="initialization" class="level3">
+<h3 class="anchored" data-anchor-id="initialization">Initialization</h3>
+<p>From here, DVC can be initialized by running:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pdm</span> run dvc init</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>This creates a <code>.dvc</code> directory with a few internal files. Add these changes to Git with a commit.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
