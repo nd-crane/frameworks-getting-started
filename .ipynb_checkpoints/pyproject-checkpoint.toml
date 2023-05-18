@@ -1,11 +1,19 @@
 [project]
-name = ""
-version = ""
-description = ""
+name = "frameworks-getting-started"
+version = "0.0.0"
+description = "getting started repository for the framework's best practices "
 authors = [
     {name = "Peter Ainsworth", email = "painswor@nd.edu"},
 ]
-dependencies = []
+dependencies = [
+    "nbdev>=2.3.12",
+    "setuptools>=67.6.1",
+    "ipykernel>=6.22.0",
+    "torch>=2.0.0",
+    "jupyter>=1.0.0",
+    "dvc>=2.53.0",
+    "papermill>=2.4.0",
+]
 requires-python = ">=3.9"
 license = {text = "MIT"}
 

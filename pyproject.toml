@@ -1,7 +1,7 @@
 [project]
-name = ""
-version = ""
-description = ""
+name = "frameworks-getting-started"
+version = "0.0.0"
+description = "getting started repository for the framework's best practices "
 authors = [
     {name = "Peter Ainsworth", email = "painswor@nd.edu"},
 ]
@@ -13,7 +13,6 @@ dependencies = [
     "jupyter>=1.0.0",
     "dvc>=2.53.0",
     "papermill>=2.4.0",
-    "file:///${PROJECT_ROOT}/.",
 ]
 requires-python = ">=3.9"
 license = {text = "MIT"}
