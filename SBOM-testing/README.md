@@ -10,7 +10,7 @@ SPDX Version: 2.3
   - SPDXID
   - name
   - version
-  - licsenseconcluded (sometimes)
+  - licsense concluded (sometimes)
   - externalRefs
     - referenceCategory
     - referenceLocator
@@ -41,6 +41,6 @@ looks like its getting the SPDXID's wrong
 
 Example Package: aiohttp
 
-**Github Generated:** `SPDXID	:	SPDXRef-pip-aiohttp-3.8.4`
+**Github Generated:** `SPDXID:SPDXRef-pip-aiohttp-3.8.4`
 
-**Tool Generated:** `SPDXID	:	SPDXRef-File--.venv-lib-python3.11-site-packages-aiohttp-retry-2.8.3.dist-info-top-level.txt-AB5E1DC6CC3ACE9E1BEE2C852488D7C5F253484A`
+**Tool Generated:** `SPDXID:SPDXRef-File--.venv-lib-python3.11-site-packages-aiohttp-retry-2.8.3.dist-info-top-level.txt-AB5E1DC6CC3ACE9E1BEE2C852488D7C5F253484A`
