@@ -1,5 +1,5 @@
-[INFO] Log file: /var/folders/w0/xgn3_v7168nfy385xk_csk4c0000gn/T/GovCompDisc_Log_20230518154727523.log 
-[INFO] Run correlation id: 63bd5f88-57dc-4cc3-8662-710a91b54948 
+[INFO] Log file: /var/folders/w0/xgn3_v7168nfy385xk_csk4c0000gn/T/GovCompDisc_Log_20230522140655423.log 
+[INFO] Run correlation id: 6db43311-801a-46ed-ada4-6d3e68264811 
 
 [INFO] Attempting to load default detectors 
 [INFO] 20 detectors were found in Microsoft.ComponentDetection.Detectors
@@ -9,7 +9,7 @@
 [INFO] Finding components... 
 [INFO] Starting enumeration of /Users/painsworth/Desktop/Github/frameworks-getting-started 
 [INFO] No instructions received to scan docker images. 
-[INFO] Enumerated 72 files and 12 directories in 00:00:00.0473641 
+[INFO] Enumerated 74 files and 12 directories in 00:00:00.0520598 
 [WARN] Discovered SPDX file at /Users/painsworth/Desktop/Github/frameworks-getting-started/_manifest/spdx_2.2/manifest.spdx.json is not a valid document, skipping 
 [INFO] Getting Python data from https://pypi.org/pypi/aiohttp/json 
 [INFO] Getting Python data from https://pypi.org/pypi/aiohttp-retry/json 
@@ -612,6 +612,7 @@
 [WARN] Received 404 Not Found from https://pypi.org/pypi/psutil>=5.9.0/json 
 [WARN] Dependency Package psutil>=5.9.0 not found in Pypi. Skipping package 
 [INFO] Getting Python data from https://pypi.org/pypi/typing_extensions/json 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/23/33/dbc62343de0cf92e0f9c15bc0a287bdaea0953f1cadca0480c78d5ac6641/ruamel.yaml-0.17.26-py3-none-any.whl 
 [INFO] Getting Python data from https://pypi.org/pypi/ruamel.yaml.clib/json 
 [INFO] Getting Python data from https://files.pythonhosted.org/packages/08/dc/28c668097edfaf4eac4617ef7adf081b9cf50d254672fcf399a70f5efc41/pywin32-306-cp310-cp310-win32.whl 
 [INFO] Getting Python data from https://files.pythonhosted.org/packages/09/eb/4af4bcd5b8731366b676192675221c5324394a580dfae469d498313b5c4a/pathlib2-2.3.7.post1-py2.py3-none-any.whl 
@@ -627,47 +628,805 @@
 [INFO] _______________________________________________________________________________________________________________________________________ 
 [INFO] |Component Detector Id         |Detection Time                |# Components Found            |# Explicitly Referenced                 | 
 [INFO] |______________________________|______________________________|______________________________|________________________________________| 
-[INFO] |CocoaPods                     |0.1 seconds                   |0                             |0                                       | 
+[INFO] |CocoaPods                     |0.13 seconds                  |0                             |0                                       | 
 [INFO] |______________________________|______________________________|______________________________|________________________________________| 
-[INFO] |Go                            |0.1 seconds                   |0                             |0                                       | 
+[INFO] |Go                            |0.13 seconds                  |0                             |0                                       | 
 [INFO] |______________________________|______________________________|______________________________|________________________________________| 
-[INFO] |Gradle                        |0.1 seconds                   |0                             |0                                       | 
+[INFO] |Gradle                        |0.13 seconds                  |0                             |0                                       | 
 [INFO] |______________________________|______________________________|______________________________|________________________________________| 
-[INFO] |Ivy (Beta)                    |0.098 seconds                 |0                             |0                                       | 
+[INFO] |Ivy (Beta)                    |0.13 seconds                  |0                             |0                                       | 
 [INFO] |______________________________|______________________________|______________________________|________________________________________| 
-[INFO] |Linux                         |0.058 seconds                 |0                             |0                                       | 
+[INFO] |Linux                         |0.091 seconds                 |0                             |0                                       | 
 [INFO] |______________________________|______________________________|______________________________|________________________________________| 
-[INFO] |MvnCli                        |0.098 seconds                 |0                             |0                                       | 
+[INFO] |MvnCli                        |0.13 seconds                  |0                             |0                                       | 
 [INFO] |______________________________|______________________________|______________________________|________________________________________| 
-[INFO] |Npm                           |0.1 seconds                   |0                             |0                                       | 
+[INFO] |Npm                           |0.13 seconds                  |0                             |0                                       | 
 [INFO] |______________________________|______________________________|______________________________|________________________________________| 
-[INFO] |NpmWithRoots                  |0.1 seconds                   |0                             |0                                       | 
+[INFO] |NpmWithRoots                  |0.13 seconds                  |0                             |0                                       | 
 [INFO] |______________________________|______________________________|______________________________|________________________________________| 
-[INFO] |NuGet                         |0.1 seconds                   |0                             |0                                       | 
+[INFO] |NuGet                         |0.13 seconds                  |0                             |0                                       | 
 [INFO] |______________________________|______________________________|______________________________|________________________________________| 
-[INFO] |NuGetPackagesConfig           |0.1 seconds                   |0                             |0                                       | 
+[INFO] |NuGetPackagesConfig           |0.13 seconds                  |0                             |0                                       | 
 [INFO] |______________________________|______________________________|______________________________|________________________________________| 
-[INFO] |NuGetProjectCentric           |0.1 seconds                   |0                             |0                                       | 
+[INFO] |NuGetProjectCentric           |0.14 seconds                  |0                             |0                                       | 
 [INFO] |______________________________|______________________________|______________________________|________________________________________| 
-[INFO] |Pip                           |49 seconds                    |206                           |188                                     | 
+[INFO] |Pip                           |3.8e+02 seconds               |206                           |188                                     | 
 [INFO] |______________________________|______________________________|______________________________|________________________________________| 
-[INFO] |Pnpm                          |0.1 seconds                   |0                             |0                                       | 
+[INFO] |Pnpm                          |0.13 seconds                  |0                             |0                                       | 
 [INFO] |______________________________|______________________________|______________________________|________________________________________| 
-[INFO] |Poetry (Beta)                 |0.1 seconds                   |0                             |0                                       | 
+[INFO] |Poetry (Beta)                 |0.13 seconds                  |0                             |0                                       | 
 [INFO] |______________________________|______________________________|______________________________|________________________________________| 
-[INFO] |Ruby                          |0.1 seconds                   |0                             |0                                       | 
+[INFO] |Ruby                          |0.13 seconds                  |0                             |0                                       | 
 [INFO] |______________________________|______________________________|______________________________|________________________________________| 
-[INFO] |RustCrateDetector             |0.1 seconds                   |0                             |0                                       | 
+[INFO] |RustCrateDetector             |0.13 seconds                  |0                             |0                                       | 
 [INFO] |______________________________|______________________________|______________________________|________________________________________| 
-[INFO] |SPDX22SBOM                    |0.11 seconds                  |0                             |0                                       | 
+[INFO] |SPDX22SBOM                    |0.14 seconds                  |0                             |0                                       | 
 [INFO] |______________________________|______________________________|______________________________|________________________________________| 
-[INFO] |Vcpkg (Beta)                  |0.1 seconds                   |0                             |0                                       | 
+[INFO] |Vcpkg (Beta)                  |0.13 seconds                  |0                             |0                                       | 
 [INFO] |______________________________|______________________________|______________________________|________________________________________| 
-[INFO] |Yarn                          |0.1 seconds                   |0                             |0                                       | 
+[INFO] |Yarn                          |0.14 seconds                  |0                             |0                                       | 
 [INFO] |______________________________|______________________________|______________________________|________________________________________| 
-[INFO] |Total                         |49 seconds                    |206                           |188                                     | 
+[INFO] |Total                         |3.8e+02 seconds               |206                           |188                                     | 
 [INFO] |______________________________|______________________________|______________________________|________________________________________| 
 [INFO]  
 
-[INFO] Detection time: 49.248879 seconds. 
-[INFO] Scan Manifest file: /var/folders/w0/xgn3_v7168nfy385xk_csk4c0000gn/T/ScanManifest_20230518154727523.json 
+[INFO] Detection time: 384.0403618 seconds. 
+[INFO] Scan Manifest file: /var/folders/w0/xgn3_v7168nfy385xk_csk4c0000gn/T/ScanManifest_20230522140655423.json 
+##[information]No namespace URI base provided, using default value https://spdx.org/spdxdocs/sbom-tool-1.1.1-9993f1c3-479c-4c9c-9d40-4c2226906e3f
+##[debug]Starting SBOM generation workflow.
+##[debug]Using the CGScannedExternalDocumentReferenceFileProvider provider for the files workflow.
+##[debug]Splitting the workflow into 8 threads.
+##[debug]Running the generation workflow ...
+[INFO] Log file: /var/folders/w0/xgn3_v7168nfy385xk_csk4c0000gn/T/GovCompDisc_Log_20230522144514708.log 
+[INFO] Run correlation id: 5fc37a25-8625-4fc7-a4e9-b2d3234ade1c 
+
+[INFO] Attempting to load default detectors 
+[INFO] 20 detectors were found in Microsoft.ComponentDetection.Detectors
+ 
+[WARN] Provided search path /Users/painsworth/.net/sbom-tool/gzgCbXeI+tJKxl6MxOUslp6HxLHQ1HU=/Plugins does not exist. 
+[VERBOSE] Finished applying restrictions to detectors. 
+
+[INFO] Finding components... 
+[VERBOSE] poetry.lock 
+[VERBOSE] shrinkwrap.yaml:pnpm-lock.yaml 
+[VERBOSE] *.nupkg:*.nuspec:nuget.config:paket.lock 
+[VERBOSE] vcpkg.spdx.json 
+[VERBOSE] Cargo.lock 
+[VERBOSE] Gemfile.lock 
+[VERBOSE] yarn.lock 
+[VERBOSE] setup.py:requirements.txt 
+[VERBOSE] *.spdx.json 
+[VERBOSE] Registered Microsoft.ComponentDetection.Detectors.Rust.RustCrateDetector 
+[VERBOSE] Registered Microsoft.ComponentDetection.Detectors.Poetry.PoetryComponentDetector 
+[VERBOSE] Registered Microsoft.ComponentDetection.Detectors.Spdx.Spdx22ComponentDetector 
+[VERBOSE] Registered Microsoft.ComponentDetection.Detectors.Pip.PipComponentDetector 
+[VERBOSE] Registered Microsoft.ComponentDetection.Detectors.Yarn.YarnLockComponentDetector 
+[VERBOSE] Registered Microsoft.ComponentDetection.Detectors.Pnpm.PnpmComponentDetector 
+[VERBOSE] Registered Microsoft.ComponentDetection.Detectors.Vcpkg.VcpkgComponentDetector 
+[VERBOSE] Registered Microsoft.ComponentDetection.Detectors.NuGet.NuGetComponentDetector 
+[VERBOSE] Registered Microsoft.ComponentDetection.Detectors.Ruby.RubyComponentDetector 
+[VERBOSE] project.assets.json 
+[VERBOSE] packages.config 
+[VERBOSE] package.json 
+[VERBOSE] Registered Microsoft.ComponentDetection.Detectors.NuGet.NuGetProjectModelProjectCentricComponentDetector 
+[VERBOSE] package-lock.json:npm-shrinkwrap.json:lerna.json 
+[VERBOSE] pom.xml 
+[VERBOSE] Registered Microsoft.ComponentDetection.Detectors.NuGet.NuGetPackagesConfigDetector 
+[VERBOSE] Registered Microsoft.ComponentDetection.Detectors.Maven.MvnCliComponentDetector 
+[VERBOSE] Podfile.lock 
+[VERBOSE] Registered Microsoft.ComponentDetection.Detectors.CocoaPods.PodComponentDetector 
+[VERBOSE] go.mod:go.sum 
+[VERBOSE] Registered Microsoft.ComponentDetection.Detectors.Go.GoComponentDetector 
+[VERBOSE] *.lockfile 
+[VERBOSE] Registered Microsoft.ComponentDetection.Detectors.Gradle.GradleComponentDetector 
+[INFO] No instructions received to scan docker images. 
+[INFO] Starting enumeration of /Users/painsworth/Desktop/Github/frameworks-getting-started 
+[VERBOSE] ivy.xml 
+[VERBOSE] Registered Microsoft.ComponentDetection.Detectors.Ivy.IvyDetector 
+[VERBOSE] Registered Microsoft.ComponentDetection.Detectors.Npm.NpmComponentDetectorWithRoots 
+[VERBOSE] Registered Microsoft.ComponentDetection.Detectors.Npm.NpmComponentDetector 
+[VERBOSE] Skipping maven detection as maven is not available in the local PATH. 
+[VERBOSE] Skipping Ivy detection as ant is not available in the local PATH. 
+[VERBOSE] Discovered SPDX2.2 manifest file at: /Users/painsworth/Desktop/Github/frameworks-getting-started/_manifest/spdx_2.2/manifest.spdx.json 
+[INFO] Enumerated 74 files and 12 directories in 00:00:00.0483583 
+[WARN] Discovered SPDX file at /Users/painsworth/Desktop/Github/frameworks-getting-started/_manifest/spdx_2.2/manifest.spdx.json is not a valid document, skipping 
+[INFO] Getting Python data from https://pypi.org/pypi/aiohttp/json 
+[INFO] Getting Python data from https://pypi.org/pypi/aiohttp-retry/json 
+[INFO] Getting Python data from https://pypi.org/pypi/aiosignal/json 
+[INFO] Getting Python data from https://pypi.org/pypi/amqp/json 
+[INFO] Getting Python data from https://pypi.org/pypi/ansiwrap/json 
+[INFO] Getting Python data from https://pypi.org/pypi/antlr4-python3-runtime/json 
+[INFO] Getting Python data from https://pypi.org/pypi/anyio/json 
+[INFO] Getting Python data from https://pypi.org/pypi/appdirs/json 
+[INFO] Getting Python data from https://pypi.org/pypi/argon2-cffi/json 
+[INFO] Getting Python data from https://pypi.org/pypi/argon2-cffi-bindings/json 
+[INFO] Getting Python data from https://pypi.org/pypi/arrow/json 
+[INFO] Getting Python data from https://pypi.org/pypi/asttokens/json 
+[INFO] Getting Python data from https://pypi.org/pypi/astunparse/json 
+[INFO] Getting Python data from https://pypi.org/pypi/async-timeout/json 
+[INFO] Getting Python data from https://pypi.org/pypi/asyncssh/json 
+[INFO] Getting Python data from https://pypi.org/pypi/atpublic/json 
+[INFO] Getting Python data from https://pypi.org/pypi/attrs/json 
+[INFO] Getting Python data from https://pypi.org/pypi/backcall/json 
+[INFO] Getting Python data from https://pypi.org/pypi/beautifulsoup4/json 
+[INFO] Getting Python data from https://pypi.org/pypi/billiard/json 
+[INFO] Getting Python data from https://pypi.org/pypi/bleach/json 
+[INFO] Getting Python data from https://pypi.org/pypi/celery/json 
+[INFO] Getting Python data from https://pypi.org/pypi/certifi/json 
+[INFO] Getting Python data from https://pypi.org/pypi/cffi/json 
+[INFO] Getting Python data from https://pypi.org/pypi/charset-normalizer/json 
+[INFO] Getting Python data from https://pypi.org/pypi/click/json 
+[INFO] Getting Python data from https://pypi.org/pypi/click-didyoumean/json 
+[INFO] Getting Python data from https://pypi.org/pypi/click-plugins/json 
+[INFO] Getting Python data from https://pypi.org/pypi/click-repl/json 
+[INFO] Getting Python data from https://pypi.org/pypi/cmake/json 
+[INFO] Getting Python data from https://pypi.org/pypi/colorama/json 
+[INFO] Getting Python data from https://pypi.org/pypi/comm/json 
+[INFO] Getting Python data from https://pypi.org/pypi/configobj/json 
+[INFO] Getting Python data from https://pypi.org/pypi/cryptography/json 
+[INFO] Getting Python data from https://pypi.org/pypi/debugpy/json 
+[INFO] Getting Python data from https://pypi.org/pypi/decorator/json 
+[INFO] Getting Python data from https://pypi.org/pypi/defusedxml/json 
+[INFO] Getting Python data from https://pypi.org/pypi/dictdiffer/json 
+[INFO] Getting Python data from https://pypi.org/pypi/diskcache/json 
+[INFO] Getting Python data from https://pypi.org/pypi/distro/json 
+[INFO] Getting Python data from https://pypi.org/pypi/dpath/json 
+[INFO] Getting Python data from https://pypi.org/pypi/dulwich/json 
+[INFO] Getting Python data from https://pypi.org/pypi/dvc/json 
+[INFO] Getting Python data from https://pypi.org/pypi/dvc-data/json 
+[INFO] Getting Python data from https://pypi.org/pypi/dvc-http/json 
+[INFO] Getting Python data from https://pypi.org/pypi/dvc-objects/json 
+[INFO] Getting Python data from https://pypi.org/pypi/dvc-render/json 
+[INFO] Getting Python data from https://pypi.org/pypi/dvc-studio-client/json 
+[INFO] Getting Python data from https://pypi.org/pypi/dvc-task/json 
+[INFO] Getting Python data from https://pypi.org/pypi/entrypoints/json 
+[INFO] Getting Python data from https://pypi.org/pypi/execnb/json 
+[INFO] Getting Python data from https://pypi.org/pypi/executing/json 
+[INFO] Getting Python data from https://pypi.org/pypi/fastcore/json 
+[INFO] Getting Python data from https://pypi.org/pypi/fastjsonschema/json 
+[INFO] Getting Python data from https://pypi.org/pypi/filelock/json 
+[INFO] Getting Python data from https://pypi.org/pypi/flatten-dict/json 
+[INFO] Getting Python data from https://pypi.org/pypi/flufl-lock/json 
+[INFO] Getting Python data from https://pypi.org/pypi/fqdn/json 
+[INFO] Getting Python data from https://pypi.org/pypi/frozenlist/json 
+[INFO] Getting Python data from https://pypi.org/pypi/fsspec/json 
+[INFO] Getting Python data from https://pypi.org/pypi/funcy/json 
+[INFO] Getting Python data from https://pypi.org/pypi/ghapi/json 
+[INFO] Getting Python data from https://pypi.org/pypi/gitdb/json 
+[INFO] Getting Python data from https://pypi.org/pypi/gitpython/json 
+[INFO] Getting Python data from https://pypi.org/pypi/grandalf/json 
+[INFO] Getting Python data from https://pypi.org/pypi/hydra-core/json 
+[INFO] Getting Python data from https://pypi.org/pypi/idna/json 
+[INFO] Getting Python data from https://pypi.org/pypi/importlib-metadata/json 
+[INFO] Getting Python data from https://pypi.org/pypi/ipykernel/json 
+[INFO] Getting Python data from https://pypi.org/pypi/ipython/json 
+[INFO] Getting Python data from https://pypi.org/pypi/ipython-genutils/json 
+[INFO] Getting Python data from https://pypi.org/pypi/ipywidgets/json 
+[INFO] Getting Python data from https://pypi.org/pypi/isoduration/json 
+[INFO] Getting Python data from https://pypi.org/pypi/iterative-telemetry/json 
+[INFO] Getting Python data from https://pypi.org/pypi/jedi/json 
+[INFO] Getting Python data from https://pypi.org/pypi/jinja2/json 
+[INFO] Getting Python data from https://pypi.org/pypi/jsonpointer/json 
+[INFO] Getting Python data from https://pypi.org/pypi/jsonschema/json 
+[INFO] Getting Python data from https://pypi.org/pypi/jupyter/json 
+[INFO] Getting Python data from https://pypi.org/pypi/jupyter-client/json 
+[INFO] Getting Python data from https://pypi.org/pypi/jupyter-console/json 
+[INFO] Getting Python data from https://pypi.org/pypi/jupyter-core/json 
+[INFO] Getting Python data from https://pypi.org/pypi/jupyter-events/json 
+[INFO] Getting Python data from https://pypi.org/pypi/jupyter-server/json 
+[INFO] Getting Python data from https://pypi.org/pypi/jupyter-server-terminals/json 
+[INFO] Getting Python data from https://pypi.org/pypi/jupyterlab-pygments/json 
+[INFO] Getting Python data from https://pypi.org/pypi/jupyterlab-widgets/json 
+[INFO] Getting Python data from https://pypi.org/pypi/kombu/json 
+[INFO] Getting Python data from https://pypi.org/pypi/lit/json 
+[INFO] Getting Python data from https://pypi.org/pypi/markdown-it-py/json 
+[INFO] Getting Python data from https://pypi.org/pypi/MarkupSafe/json 
+[INFO] Getting Python data from https://pypi.org/pypi/matplotlib-inline/json 
+[INFO] Getting Python data from https://pypi.org/pypi/mdurl/json 
+[INFO] Getting Python data from https://pypi.org/pypi/mistune/json 
+[INFO] Getting Python data from https://pypi.org/pypi/mpmath/json 
+[INFO] Getting Python data from https://pypi.org/pypi/multidict/json 
+[INFO] Getting Python data from https://pypi.org/pypi/nanotime/json 
+[INFO] Getting Python data from https://pypi.org/pypi/nbclassic/json 
+[INFO] Getting Python data from https://pypi.org/pypi/nbclient/json 
+[INFO] Getting Python data from https://pypi.org/pypi/nbconvert/json 
+[INFO] Getting Python data from https://pypi.org/pypi/nbdev/json 
+[INFO] Getting Python data from https://pypi.org/pypi/nbformat/json 
+[INFO] Getting Python data from https://pypi.org/pypi/nest-asyncio/json 
+[INFO] Getting Python data from https://pypi.org/pypi/networkx/json 
+[INFO] Getting Python data from https://pypi.org/pypi/notebook/json 
+[INFO] Getting Python data from https://pypi.org/pypi/notebook-shim/json 
+[INFO] Getting Python data from https://pypi.org/pypi/nvidia-cublas-cu11/json 
+[INFO] Getting Python data from https://pypi.org/pypi/nvidia-cuda-cupti-cu11/json 
+[INFO] Getting Python data from https://pypi.org/pypi/nvidia-cuda-nvrtc-cu11/json 
+[INFO] Getting Python data from https://pypi.org/pypi/nvidia-cuda-runtime-cu11/json 
+[INFO] Getting Python data from https://pypi.org/pypi/nvidia-cudnn-cu11/json 
+[INFO] Getting Python data from https://pypi.org/pypi/nvidia-cufft-cu11/json 
+[INFO] Getting Python data from https://pypi.org/pypi/nvidia-curand-cu11/json 
+[INFO] Getting Python data from https://pypi.org/pypi/nvidia-cusolver-cu11/json 
+[INFO] Getting Python data from https://pypi.org/pypi/nvidia-cusparse-cu11/json 
+[INFO] Getting Python data from https://pypi.org/pypi/nvidia-nccl-cu11/json 
+[INFO] Getting Python data from https://pypi.org/pypi/nvidia-nvtx-cu11/json 
+[INFO] Getting Python data from https://pypi.org/pypi/omegaconf/json 
+[INFO] Getting Python data from https://pypi.org/pypi/orjson/json 
+[INFO] Getting Python data from https://pypi.org/pypi/packaging/json 
+[INFO] Getting Python data from https://pypi.org/pypi/pandocfilters/json 
+[INFO] Getting Python data from https://pypi.org/pypi/papermill/json 
+[INFO] Getting Python data from https://pypi.org/pypi/parso/json 
+[INFO] Getting Python data from https://pypi.org/pypi/pathspec/json 
+[INFO] Getting Python data from https://pypi.org/pypi/pexpect/json 
+[INFO] Getting Python data from https://pypi.org/pypi/pickleshare/json 
+[INFO] Getting Python data from https://pypi.org/pypi/platformdirs/json 
+[INFO] Getting Python data from https://pypi.org/pypi/prometheus-client/json 
+[INFO] Getting Python data from https://pypi.org/pypi/prompt-toolkit/json 
+[INFO] Getting Python data from https://pypi.org/pypi/psutil/json 
+[INFO] Getting Python data from https://pypi.org/pypi/ptyprocess/json 
+[INFO] Getting Python data from https://pypi.org/pypi/pure-eval/json 
+[INFO] Getting Python data from https://pypi.org/pypi/pycparser/json 
+[INFO] Getting Python data from https://pypi.org/pypi/pydot/json 
+[INFO] Getting Python data from https://pypi.org/pypi/pygit2/json 
+[INFO] Getting Python data from https://pypi.org/pypi/pygments/json 
+[INFO] Getting Python data from https://pypi.org/pypi/pygtrie/json 
+[INFO] Getting Python data from https://pypi.org/pypi/pyparsing/json 
+[INFO] Getting Python data from https://pypi.org/pypi/pyrsistent/json 
+[INFO] Getting Python data from https://pypi.org/pypi/python-dateutil/json 
+[INFO] Getting Python data from https://pypi.org/pypi/python-json-logger/json 
+[INFO] Getting Python data from https://pypi.org/pypi/pytz/json 
+[INFO] Getting Python data from https://pypi.org/pypi/PyYAML/json 
+[INFO] Getting Python data from https://pypi.org/pypi/pyzmq/json 
+[INFO] Getting Python data from https://pypi.org/pypi/qtconsole/json 
+[INFO] Getting Python data from https://pypi.org/pypi/qtpy/json 
+[INFO] Getting Python data from https://pypi.org/pypi/requests/json 
+[INFO] Getting Python data from https://pypi.org/pypi/rfc3339-validator/json 
+[INFO] Getting Python data from https://pypi.org/pypi/rfc3986-validator/json 
+[INFO] Getting Python data from https://pypi.org/pypi/rich/json 
+[INFO] Getting Python data from https://pypi.org/pypi/ruamel-yaml/json 
+[INFO] Getting Python data from https://pypi.org/pypi/ruamel-yaml-clib/json 
+[INFO] Getting Python data from https://pypi.org/pypi/scmrepo/json 
+[INFO] Getting Python data from https://pypi.org/pypi/Send2Trash/json 
+[INFO] Getting Python data from https://pypi.org/pypi/shortuuid/json 
+[INFO] Getting Python data from https://pypi.org/pypi/shtab/json 
+[INFO] Getting Python data from https://pypi.org/pypi/six/json 
+[INFO] Getting Python data from https://pypi.org/pypi/smmap/json 
+[INFO] Getting Python data from https://pypi.org/pypi/sniffio/json 
+[INFO] Getting Python data from https://pypi.org/pypi/soupsieve/json 
+[INFO] Getting Python data from https://pypi.org/pypi/sqltrie/json 
+[INFO] Getting Python data from https://pypi.org/pypi/stack-data/json 
+[INFO] Getting Python data from https://pypi.org/pypi/sympy/json 
+[INFO] Getting Python data from https://pypi.org/pypi/tabulate/json 
+[INFO] Getting Python data from https://pypi.org/pypi/tenacity/json 
+[INFO] Getting Python data from https://pypi.org/pypi/terminado/json 
+[INFO] Getting Python data from https://pypi.org/pypi/textwrap3/json 
+[INFO] Getting Python data from https://pypi.org/pypi/tinycss2/json 
+[INFO] Getting Python data from https://pypi.org/pypi/tomlkit/json 
+[INFO] Getting Python data from https://pypi.org/pypi/torch/json 
+[INFO] Getting Python data from https://pypi.org/pypi/tornado/json 
+[INFO] Getting Python data from https://pypi.org/pypi/tqdm/json 
+[INFO] Getting Python data from https://pypi.org/pypi/traitlets/json 
+[INFO] Getting Python data from https://pypi.org/pypi/triton/json 
+[INFO] Getting Python data from https://pypi.org/pypi/typing-extensions/json 
+[INFO] Getting Python data from https://pypi.org/pypi/uri-template/json 
+[INFO] Getting Python data from https://pypi.org/pypi/urllib3/json 
+[INFO] Getting Python data from https://pypi.org/pypi/vine/json 
+[INFO] Getting Python data from https://pypi.org/pypi/voluptuous/json 
+[INFO] Getting Python data from https://pypi.org/pypi/watchdog/json 
+[INFO] Getting Python data from https://pypi.org/pypi/wcwidth/json 
+[INFO] Getting Python data from https://pypi.org/pypi/webcolors/json 
+[INFO] Getting Python data from https://pypi.org/pypi/webencodings/json 
+[INFO] Getting Python data from https://pypi.org/pypi/websocket-client/json 
+[INFO] Getting Python data from https://pypi.org/pypi/widgetsnbextension/json 
+[INFO] Getting Python data from https://pypi.org/pypi/yarl/json 
+[INFO] Getting Python data from https://pypi.org/pypi/zc-lockfile/json 
+[INFO] Getting Python data from https://pypi.org/pypi/zipp/json 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/ed/18/43720f71f5496544e69f8723534d8b5fa6de8b1ad2f64a5d7e797c4ee6e7/aiohttp-3.8.4-cp310-cp310-macosx_10_9_universal2.whl 
+[INFO] Getting Python data from https://pypi.org/pypi/idna-ssl/json 
+[INFO] Getting Python data from https://pypi.org/pypi/asynctest/json 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/57/57/af573003eca6248a5cbc538fc46bea5b249c2ac86f27140b0a621bcd3fde/aiohttp_retry-2.8.3-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/76/ac/a7305707cb852b7e16ff80eaf5692309bde30e2b1100a1fcacdc8f731d97/aiosignal-1.3.1-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/de/a3/e7b3b9d34239bae066df135060e225929d639731050c920fdc740d6b7897/amqp-5.1.1-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/03/50/43e775a63e0d632d9be3b3fa1c9b2cbaf3b7870d203655710a3426f47c26/ansiwrap-0.8.4-py2.py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/77/2b/b4c0b7a3f3d61adb1a1e0b78f90a94e2b6162a043880704b7437ef297cad/anyio-3.6.2-py3-none-any.whl 
+[INFO] Getting Python data from https://pypi.org/pypi/contextvars/json 
+[INFO] Getting Python data from https://pypi.org/pypi/dataclasses/json 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/3b/00/2344469e2084fb287c2e0b57b72910309874c3245463acd6cf5e3db69324/appdirs-1.4.4-py2.py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/a8/07/946d5a9431bae05a776a59746ec385fbb79b526738d25e4202d3e0bbf7f4/argon2_cffi-21.3.0-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/d4/13/838ce2620025e9666aa8f686431f67a29052241692a3dd1ae9d3692a89d3/argon2_cffi_bindings-21.2.0-cp36-abi3-macosx_10_9_x86_64.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/67/67/4bca5a595e2f89bff271724ddb1098e6c9e16f7f3d018d120255e3c30313/arrow-1.2.3-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/f3/e1/64679d9d0759db5b182222c81ff322c2fe2c31e156a59afd6e9208c960e5/asttokens-2.2.1-py2.py3-none-any.whl 
+[INFO] Getting Python data from https://pypi.org/pypi/typing/json 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/2b/03/13dde6512ad7b4557eb792fbcf0c653af6076b81e5941d36ec61f7ce6028/astunparse-1.6.3-py2.py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/d6/c1/8991e7c5385b897b8c020cdaad718c5b087a6626d1d11a23e1ea87e325a7/async_timeout-4.0.2-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/1e/9f/ad61867b12823f6e2c0ef2b80a704273b9385de707ac4539afa445c0665d/asyncssh-2.13.1-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/31/5e/ac9adbbf851310ce5b64f0ad66f3552a62830839e8bec5e1a4974b983ce6/atpublic-3.1.1-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/f0/eb/fcb708c7bf5056045e9e98f62b93bd7467eb718b0202e7698eb11d66416c/attrs-23.1.0-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/4c/1c/ff6546b6c12603d8dd1070aa3c3d273ad4c07f5771689a7b69a550e8c951/backcall-0.2.0-py2.py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/57/f4/a69c20ee4f660081a7dedb1ac57f29be9378e04edfcb90c526b923d4bebc/beautifulsoup4-4.12.2-py3-none-any.whl 
+[INFO] Getting Python data from https://pypi.org/pypi/soupsieve>1.2/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/soupsieve>1.2/json 
+[WARN] Dependency Package soupsieve>1.2 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/2b/89/0c43de91d4e52eaa7bd748771d417f6ac9e51e66b2f61928c2151bf65878/billiard-3.6.4.0-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/ac/e2/dfcab68c9b2e7800c8f06b85c76e5f978d05b195a958daa9b1dda54a1db6/bleach-6.0.0-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/1d/99/21fe9d1829cab4fc77d18f89d0c4cbcfe754e95f8b8f4af64fe4997c442f/celery-5.2.7-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/9d/19/59961b522e6757f0c9097e4493fa906031b95b3ebe9360b2c3083561a6b4/certifi-2023.5.7-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/3f/fa/dfc242febbff049509e5a35a065bdc10f90d8c8585361c2c66b9c2f97a01/cffi-1.15.1-cp27-cp27m-macosx_10_9_x86_64.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/4f/a2/9031ba4a008e11a21d7b7aa41751290d2f2035a2f14ecb6e589771a17c47/charset_normalizer-3.1.0-cp310-cp310-macosx_10_9_universal2.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/c2/f1/df59e28c642d583f7dacffb1e0965d0e00b218e0186d7858ac5233dce840/click-8.1.3-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/ad/36/4599267417fc78b587b1588e0647a468c60b36c02bb723d450d050738fa8/click_didyoumean-0.3.0-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/e9/da/824b92d9942f4e472702488857914bdd50f73021efea15b4cad9aca8ecef/click_plugins-1.1.1-py2.py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/9b/33/15f401400cc0cf2470aa777d225e772f83a68541495e015d2fa5c77d33d0/click_repl-0.2.0-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/d3/83/127f8bda3b1eb7ba3218c345767846b985074af4228cb914dc7759404f58/cmake-3.26.3-py2.py3-none-macosx_10_10_universal2.macosx_10_10_x86_64.macosx_11_0_arm64.macosx_11_0_universal2.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/74/f3/b88d7e1dadf741550c56b70d7ce62673354fddb68e143d193ceb80224208/comm-0.1.3-py3-none-any.whl 
+[INFO] Getting Python data from https://pypi.org/pypi/traitlets>=5.3/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/traitlets>=5.3/json 
+[WARN] Dependency Package traitlets>=5.3 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/d3/bb/d10e531b297dd1d46f6b1fd11d018247af9f2d460037554bb7bb9011c6ac/configobj-5.0.8-py2.py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/cc/aa/285f288e36d398db873d4cc20984c9a132ef5eace539d91babe4c4e94aaa/cryptography-40.0.2-cp36-abi3-macosx_10_12_universal2.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/ee/7e/7a0621b57788ee106932149eba7dc5c014d7212f95964638c04aadd98425/debugpy-1.6.7-cp310-cp310-macosx_11_0_x86_64.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/d5/50/83c593b07763e1161326b3b8c6686f0f4b0f24d5526546bee538c89837d6/decorator-5.1.1-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/07/6c/aa3f2f849e01cb6a001cd8554a88d4c77c5c1a31c95bdf1cf9301e6d9ef4/defusedxml-0.7.1-py2.py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/47/ef/4cb333825d10317a36a1154341ba37e6e9c087bac99c1990ef07ffdb376f/dictdiffer-0.9.0-py2.py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/1c/87/5f5efc3606766a8a1621fecb8b8ca2111d1dad4b9b8a631579f070d47939/diskcache-5.6.1-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/f4/2c/c90a3adaf0ddb70afe193f5ebfb539612af57cffe677c3126be533df3098/distro-1.8.0-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/e5/4f/b1f2da869ac4f64a05e623e8809edef3fafc735219fcc92bebaa8128605a/dpath-2.1.5-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/22/56/9c8bb2ff419d155fef6a94c9daf854086411739141a9266e6f0c229256a2/dulwich-0.21.5-cp310-cp310-macosx_10_9_universal2.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/97/bf/b08f21e8e27822ee9ff0b313bf76509c143b4d1953e1eb1f1587816fed40/dvc-2.57.2-py3-none-any.whl 
+[INFO] Getting Python data from https://pypi.org/pypi/flufl.lock/json 
+[INFO] Getting Python data from https://pypi.org/pypi/ruamel.yaml/json 
+[INFO] Getting Python data from https://pypi.org/pypi/zc.lockfile/json 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/3d/08/1e8739cd1805402855690155594eb960157e0dc64857a3537f9b6ec79616/dvc_data-0.51.0-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/54/25/00cf0c2922c4d49d384616cf8493c83b6df9444f614bd1292fc7e2914ddc/dvc_http-2.30.2-py3-none-any.whl 
+[INFO] Getting Python data from https://pypi.org/pypi/fsspec[http]/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/fsspec[http]/json 
+[WARN] Dependency Package fsspec[http] not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/d7/32/b9a50356fa67055d4f114900db9590a4a40088977646d2ab4f8ebb64d3c9/dvc_objects-0.22.0-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/e7/d4/aa9b151f1a446cec940ede8f96bc5932114c0cb11ddf5ce3b11831b886f4/dvc_render-0.5.2-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/7c/a4/25050b72a13bde0edfb2638c6151185528cf154cb4aa563fbcd5766ca497/dvc_studio_client-0.9.2-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/da/f1/62c0c08083eadde6fe47c08f34ffc6cf819fe57331ddad1c06385870c1fa/dvc_task-0.2.1-py3-none-any.whl 
+[INFO] Getting Python data from https://pypi.org/pypi/pywin32/json 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/35/a8/365059bbcd4572cbc41de17fd5b682be5868b218c3c5479071865cab9078/entrypoints-0.4-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/fe/ae/b16271d6cc0775f7b81e13dad9a9136cc0ca597402a2738a0faa8ef9eefa/execnb-0.1.5-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/28/3c/bc3819dd8b1a1588c9215a87271b6178cc5498acaa83885211f5d4d9e693/executing-1.2.0-py2.py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/39/b8/3059245adb5e4421222aab3852ac7f47d68eba82c8c62b88928ec1c69431/fastcore-1.5.29-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/eb/e7/84b1571b866b8abd604f8b72234d16f01bd5944014ef9929b5cb0da198c1/fastjsonschema-2.16.3-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/ad/73/b094a662ae05cdc4ec95bc54e434e307986a5de5960166b8161b7c1373ee/filelock-3.12.0-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/43/f5/ee39c6e92acc742c052f137b47c210cd0a1b72dcd3f98495528bb4d27761/flatten_dict-0.4.2-py2.py3-none-any.whl 
+[INFO] Getting Python data from https://pypi.org/pypi/pathlib2/json 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/3c/4d/506c1dc1162f2f94f6b3146bda4a9cea6f7dfa213f7969fa885c193c9648/flufl.lock-7.1.1-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/cf/58/8acf1b3e91c58313ce5cb67df61001fc9dcd21be4fadb76c1a2d540e09ed/fqdn-1.5.1-py3-none-any.whl 
+[INFO] Getting Python data from https://pypi.org/pypi/cached-property/json 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/64/08/2e192aa0a8e4741da0284559e983d22f02d12ca2cc18598948b99414c4b6/frozenlist-1.3.3-cp310-cp310-macosx_10_9_universal2.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/ec/4e/397b234a369df06ec782666fcdf9791d125ca6de48729814b381af8c6c03/fsspec-2023.5.0-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/d5/08/c2409cb01d5368dcfedcbaffa7d044cc8957d57a9d0855244a5eb4709d30/funcy-2.0-py2.py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/0f/85/9cabee25b83086f82292ee631aafff74c947bd441a4da2ab55640791dc1d/ghapi-1.0.3-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/21/a6/35f83efec687615c711fe0a09b67e58f6d1254db27b1013119de46f450bd/gitdb-4.0.10-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/9e/8a/d1e02cc111d65b0346f70abb83c51f8593e7134bf694a4a56d1a470caaf7/GitPython-3.1.31-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/61/30/44c7eb0a952478dbb5f2f67df806686d6a7e4b19f6204e091c4f49dc7c69/grandalf-0.8-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/c6/50/e0edd38dcd63fb26a8547f13d28f7a008bc4a3fd4eb4ff030673f22ad41a/hydra_core-1.3.2-py3-none-any.whl 
+[INFO] Getting Python data from https://pypi.org/pypi/importlib-resources/json 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/fc/34/3030de6f1370931b9dbb4dad48f6ab1015ab1d32447850b9fc94e60097be/idna-3.4-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/30/bb/bf2944b8b88c65b797acc2c6a2cb0fb817f7364debf0675792e034013858/importlib_metadata-6.6.0-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/5d/4b/ffb537e392e730c9a5b02758f9c87077d9087bcb0d957853e13f121e5ea7/ipykernel-6.23.1-py3-none-any.whl 
+[INFO] Getting Python data from https://pypi.org/pypi/appnope/json 
+[INFO] Getting Python data from https://pypi.org/pypi/comm>=0.1.1/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/comm>=0.1.1/json 
+[WARN] Dependency Package comm>=0.1.1 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/debugpy>=1.6.5/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/debugpy>=1.6.5/json 
+[WARN] Dependency Package debugpy>=1.6.5 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/ipython>=7.23.1/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/ipython>=7.23.1/json 
+[WARN] Dependency Package ipython>=7.23.1 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/jupyter-client>=6.1.12/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/jupyter-client>=6.1.12/json 
+[WARN] Dependency Package jupyter-client>=6.1.12 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/jupyter-core!=5.0.*,>=4.12/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/jupyter-core!=5.0.*,>=4.12/json 
+[WARN] Dependency Package jupyter-core!=5.0.*,>=4.12 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/matplotlib-inline>=0.1/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/matplotlib-inline>=0.1/json 
+[WARN] Dependency Package matplotlib-inline>=0.1 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/pyzmq>=20/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/pyzmq>=20/json 
+[WARN] Dependency Package pyzmq>=20 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/tornado>=6.1/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/tornado>=6.1/json 
+[WARN] Dependency Package tornado>=6.1 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/traitlets>=5.4.0/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/traitlets>=5.4.0/json 
+[WARN] Dependency Package traitlets>=5.4.0 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/d5/16/2161195dd2f617933f8ada5bc567eb47ddbb7c99dc16ffa3e729dd25a1a0/ipython-8.13.2-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/fa/bc/9bd3b5c2b4774d5f33b2d544f1460be9df7df2fe42f352135381c347c69a/ipython_genutils-0.2.0-py2.py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/50/7d/2c8b7bba2b1c2b5d1299f22fa7853f09b573c84e63b62870c13a6ec11990/ipywidgets-8.0.6-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/7b/55/e5326141505c5d5e34c5e0935d2908a74e4561eca44108fbfb9c13d2911a/isoduration-20.11.0-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/62/3a/cc4431b1b1153ec8c3f30fc11844cbfccc89d7496f6788a7f68549cf583b/iterative_telemetry-0.0.8-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/6d/60/4acda63286ef6023515eb914543ba36496b8929cb7af49ecce63afde09c6/jedi-0.18.2-py2.py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/bc/c3/f068337a370801f372f2f8f6bad74a5c140f6fda3d9de154052708dd3c65/Jinja2-3.1.2-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/a3/be/8dc9d31b50e38172c8020c40f497ce8debdb721545ddb9fcb7cca89ea9e6/jsonpointer-2.3-py2.py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/c1/97/c698bd9350f307daad79dd740806e1a59becd693bd11443a0f531e3229b3/jsonschema-4.17.3-py3-none-any.whl 
+[INFO] Getting Python data from https://pypi.org/pypi/attrs>=17.4.0/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/attrs>=17.4.0/json 
+[WARN] Dependency Package attrs>=17.4.0 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/importlib-resources>=1.4.0/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/importlib-resources>=1.4.0/json 
+[WARN] Dependency Package importlib-resources>=1.4.0 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/pkgutil-resolve-name>=1.3.10/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/pkgutil-resolve-name>=1.3.10/json 
+[WARN] Dependency Package pkgutil-resolve-name>=1.3.10 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0/json 
+[WARN] Dependency Package pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/83/df/0f5dd132200728a86190397e1ea87cd76244e42d39ec5e88efd25b2abd7e/jupyter-1.0.0-py2.py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/07/37/4019d2c41ca333c08dfdfeb84c0fc0368c8defbbd3c8f0c9a530851e5813/jupyter_client-8.2.0-py3-none-any.whl 
+[INFO] Getting Python data from https://pypi.org/pypi/importlib-metadata>=4.8.3/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/importlib-metadata>=4.8.3/json 
+[WARN] Dependency Package importlib-metadata>=4.8.3 not found in Pypi. Skipping package 
+[VERBOSE] Retrieved cached Python data from https://pypi.org/pypi/jupyter-core!=5.0.*,>=4.12/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/jupyter-core!=5.0.*,>=4.12/json 
+[WARN] Dependency Package jupyter-core!=5.0.*,>=4.12 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/python-dateutil>=2.8.2/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/python-dateutil>=2.8.2/json 
+[WARN] Dependency Package python-dateutil>=2.8.2 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/pyzmq>=23.0/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/pyzmq>=23.0/json 
+[WARN] Dependency Package pyzmq>=23.0 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/tornado>=6.2/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/tornado>=6.2/json 
+[WARN] Dependency Package tornado>=6.2 not found in Pypi. Skipping package 
+[VERBOSE] Retrieved cached Python data from https://pypi.org/pypi/traitlets>=5.3/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/traitlets>=5.3/json 
+[WARN] Dependency Package traitlets>=5.3 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/ca/77/71d78d58f15c22db16328a476426f7ac4a60d3a5a7ba3b9627ee2f7903d4/jupyter_console-6.6.3-py3-none-any.whl 
+[INFO] Getting Python data from https://pypi.org/pypi/ipykernel>=6.14/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/ipykernel>=6.14/json 
+[WARN] Dependency Package ipykernel>=6.14 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/jupyter-client>=7.0.0/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/jupyter-client>=7.0.0/json 
+[WARN] Dependency Package jupyter-client>=7.0.0 not found in Pypi. Skipping package 
+[VERBOSE] Retrieved cached Python data from https://pypi.org/pypi/jupyter-core!=5.0.*,>=4.12/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/jupyter-core!=5.0.*,>=4.12/json 
+[WARN] Dependency Package jupyter-core!=5.0.*,>=4.12 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/prompt-toolkit>=3.0.30/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/prompt-toolkit>=3.0.30/json 
+[WARN] Dependency Package prompt-toolkit>=3.0.30 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/pyzmq>=17/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/pyzmq>=17/json 
+[WARN] Dependency Package pyzmq>=17 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/traitlets>=5.4/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/traitlets>=5.4/json 
+[WARN] Dependency Package traitlets>=5.4 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/41/1e/92a67f333b9335f04ce409799c030dcfb291712658b9d9d13997f7c91e5a/jupyter_core-5.3.0-py3-none-any.whl 
+[INFO] Getting Python data from https://pypi.org/pypi/platformdirs>=2.5/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/platformdirs>=2.5/json 
+[WARN] Dependency Package platformdirs>=2.5 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/pywin32>=300/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/pywin32>=300/json 
+[WARN] Dependency Package pywin32>=300 not found in Pypi. Skipping package 
+[VERBOSE] Retrieved cached Python data from https://pypi.org/pypi/traitlets>=5.3/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/traitlets>=5.3/json 
+[WARN] Dependency Package traitlets>=5.3 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/ee/14/e11a93c1b47a69432ee7898f1b55f1da27f2f93b009a34dbdafb9b903f81/jupyter_events-0.6.3-py3-none-any.whl 
+[INFO] Getting Python data from https://pypi.org/pypi/jsonschema[format-nongpl]>=3.2.0/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/jsonschema[format-nongpl]>=3.2.0/json 
+[WARN] Dependency Package jsonschema[format-nongpl]>=3.2.0 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/python-json-logger>=2.0.4/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/python-json-logger>=2.0.4/json 
+[WARN] Dependency Package python-json-logger>=2.0.4 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/pyyaml>=5.3/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/pyyaml>=5.3/json 
+[WARN] Dependency Package pyyaml>=5.3 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/rfc3986-validator>=0.1.1/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/rfc3986-validator>=0.1.1/json 
+[WARN] Dependency Package rfc3986-validator>=0.1.1 not found in Pypi. Skipping package 
+[VERBOSE] Retrieved cached Python data from https://pypi.org/pypi/traitlets>=5.3/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/traitlets>=5.3/json 
+[WARN] Dependency Package traitlets>=5.3 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/1d/dd/77a250131fcc97d4a4fa76cda07e23e6b66028aca723f36d114b635127e9/jupyter_server-2.5.0-py3-none-any.whl 
+[INFO] Getting Python data from https://pypi.org/pypi/anyio>=3.1.0/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/anyio>=3.1.0/json 
+[WARN] Dependency Package anyio>=3.1.0 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/jupyter-client>=7.4.4/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/jupyter-client>=7.4.4/json 
+[WARN] Dependency Package jupyter-client>=7.4.4 not found in Pypi. Skipping package 
+[VERBOSE] Retrieved cached Python data from https://pypi.org/pypi/jupyter-core!=5.0.*,>=4.12/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/jupyter-core!=5.0.*,>=4.12/json 
+[WARN] Dependency Package jupyter-core!=5.0.*,>=4.12 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/jupyter-events>=0.4.0/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/jupyter-events>=0.4.0/json 
+[WARN] Dependency Package jupyter-events>=0.4.0 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/nbconvert>=6.4.4/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/nbconvert>=6.4.4/json 
+[WARN] Dependency Package nbconvert>=6.4.4 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/nbformat>=5.3.0/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/nbformat>=5.3.0/json 
+[WARN] Dependency Package nbformat>=5.3.0 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/pywinpty/json 
+[INFO] Getting Python data from https://pypi.org/pypi/pyzmq>=24/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/pyzmq>=24/json 
+[WARN] Dependency Package pyzmq>=24 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/terminado>=0.8.3/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/terminado>=0.8.3/json 
+[WARN] Dependency Package terminado>=0.8.3 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/tornado>=6.2.0/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/tornado>=6.2.0/json 
+[WARN] Dependency Package tornado>=6.2.0 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/traitlets>=5.6.0/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/traitlets>=5.6.0/json 
+[WARN] Dependency Package traitlets>=5.6.0 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/ea/7f/36db12bdb90f5237766dcbf59892198daab7260acbcf03fc75e2a2a82672/jupyter_server_terminals-0.4.4-py3-none-any.whl 
+[INFO] Getting Python data from https://pypi.org/pypi/pywinpty>=2.0.3/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/pywinpty>=2.0.3/json 
+[WARN] Dependency Package pywinpty>=2.0.3 not found in Pypi. Skipping package 
+[VERBOSE] Retrieved cached Python data from https://pypi.org/pypi/terminado>=0.8.3/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/terminado>=0.8.3/json 
+[WARN] Dependency Package terminado>=0.8.3 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/c0/7e/c3d1df3ae9b41686e664051daedbd70eea2e1d2bd9d9c33e7e1455bc9f96/jupyterlab_pygments-0.2.2-py2.py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/46/98/e7ce879b7b5d4871b80e291be967d22e5e66fa43474c476a95fe6231f50d/jupyterlab_widgets-3.0.7-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/d9/f3/62d12dd7ebad710319f0877c1c33bca379fc7d28069daae890fa2fa444c8/kombu-5.2.4-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/bf/25/2d88e8feee8e055d015343f9b86e370a1ccbec546f2865c98397aaef24af/markdown_it_py-2.2.0-py3-none-any.whl 
+[INFO] Getting Python data from https://pypi.org/pypi/mdurl~=0.1/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/mdurl~=0.1/json 
+[WARN] Dependency Package mdurl~=0.1 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/typing_extensions>=3.7.4/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/typing_extensions>=3.7.4/json 
+[WARN] Dependency Package typing_extensions>=3.7.4 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/37/b2/6f4d5cac75ba6fe9f17671304fe339ea45a73c5609b5f5e652aa79c915c8/MarkupSafe-2.1.2-cp310-cp310-macosx_10_9_universal2.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/f2/51/c34d7a1d528efaae3d8ddb18ef45a41f284eacf9e514523b191b7d0872cc/matplotlib_inline-0.1.6-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/9f/e5/780d22d19543f339aad583304f58002975b586757aa590cbe7bea5cc6f13/mistune-2.0.5-py2.py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/43/e3/7d92a15f894aa0c9c4b49b8ee9ac9850d6e63b03c9c32c0367a13ae62209/mpmath-1.3.0-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/bb/e4/ea5687129b0cb781aba596bd08abb2aca3c8051e41aabf989c966e93af04/multidict-6.0.4-cp310-cp310-macosx_10_9_universal2.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/84/ae/eaa71c0ed64e8ddc426a4c902e83d31c4925e9d3418d6b240dd5752b6e71/nbclassic-1.0.0-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/f3/97/d35da363d1df4a68f1b3d44335f80235487d7ca77d1f606b0c3523118f34/nbclient-0.7.4-py3-none-any.whl 
+[INFO] Getting Python data from https://pypi.org/pypi/jupyter-client>=6.1.12/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/jupyter-client>=6.1.12/json 
+[WARN] Dependency Package jupyter-client>=6.1.12 not found in Pypi. Skipping package 
+[VERBOSE] Retrieved cached Python data from https://pypi.org/pypi/jupyter-core!=5.0.*,>=4.12/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/jupyter-core!=5.0.*,>=4.12/json 
+[WARN] Dependency Package jupyter-core!=5.0.*,>=4.12 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/nbformat>=5.1/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/nbformat>=5.1/json 
+[WARN] Dependency Package nbformat>=5.1 not found in Pypi. Skipping package 
+[VERBOSE] Retrieved cached Python data from https://pypi.org/pypi/traitlets>=5.3/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/traitlets>=5.3/json 
+[WARN] Dependency Package traitlets>=5.3 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/2f/90/79bf16b584f5150550b0c175ca7a6e88334226e9275cf16db13785105d73/nbconvert-7.4.0-py3-none-any.whl 
+[INFO] Getting Python data from https://pypi.org/pypi/importlib-metadata>=3.6/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/importlib-metadata>=3.6/json 
+[WARN] Dependency Package importlib-metadata>=3.6 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/jinja2>=3.0/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/jinja2>=3.0/json 
+[WARN] Dependency Package jinja2>=3.0 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/jupyter-core>=4.7/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/jupyter-core>=4.7/json 
+[WARN] Dependency Package jupyter-core>=4.7 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/markupsafe>=2.0/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/markupsafe>=2.0/json 
+[WARN] Dependency Package markupsafe>=2.0 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/mistune<3,>=2.0.3/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/mistune<3,>=2.0.3/json 
+[WARN] Dependency Package mistune<3,>=2.0.3 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/nbclient>=0.5.0/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/nbclient>=0.5.0/json 
+[WARN] Dependency Package nbclient>=0.5.0 not found in Pypi. Skipping package 
+[VERBOSE] Retrieved cached Python data from https://pypi.org/pypi/nbformat>=5.1/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/nbformat>=5.1/json 
+[WARN] Dependency Package nbformat>=5.1 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/pandocfilters>=1.4.1/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/pandocfilters>=1.4.1/json 
+[WARN] Dependency Package pandocfilters>=1.4.1 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/pygments>=2.4.1/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/pygments>=2.4.1/json 
+[WARN] Dependency Package pygments>=2.4.1 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/traitlets>=5.0/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/traitlets>=5.0/json 
+[WARN] Dependency Package traitlets>=5.0 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/f9/e8/107f97e160f270deb04ba16a9f11bcf860bcd6f62e40b369a8444a99d129/nbdev-2.3.12-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/1d/f6/38f4694b5035306a8c2685e9e6ea7bf46ea344c03422d7131442ac9677c1/nbformat-5.8.0-py3-none-any.whl 
+[VERBOSE] Retrieved cached Python data from https://pypi.org/pypi/importlib-metadata>=3.6/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/importlib-metadata>=3.6/json 
+[WARN] Dependency Package importlib-metadata>=3.6 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/jsonschema>=2.6/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/jsonschema>=2.6/json 
+[WARN] Dependency Package jsonschema>=2.6 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/traitlets>=5.1/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/traitlets>=5.1/json 
+[WARN] Dependency Package traitlets>=5.1 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/e9/1a/6dd9ec31cfdb34cef8fea0055b593ee779a6f63c8e8038ad90d71b7f53c0/nest_asyncio-1.5.6-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/a8/05/9d4f9b78ead6b2661d6e8ea772e111fc4a9fbd866ad0c81906c11206b55e/networkx-3.1-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/7a/21/0e7683e7c4d51b8f6cc5df9bbd33fb2d1e114b9e5dcddeef96ebd8e86348/notebook-6.5.4-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/f4/79/73250372e5bbab63018b41b02d5cc6b395655ec6c1254e477ef7c913aada/notebook_shim-0.2.3-py3-none-any.whl 
+[INFO] Getting Python data from https://pypi.org/pypi/jupyter-server<3,>=1.8/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/jupyter-server<3,>=1.8/json 
+[WARN] Dependency Package jupyter-server<3,>=1.8 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/ce/41/fdeb62b5437996e841d83d7d2714ca75b886547ee8017ee2fe6ea409d983/nvidia_cublas_cu11-11.10.3.66-py3-none-manylinux1_x86_64.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/e6/9d/dd0cdcd800e642e3c82ee3b5987c751afd4f3fb9cc2752517f42c3bc6e49/nvidia_cuda_cupti_cu11-11.7.101-py3-none-manylinux1_x86_64.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/ef/25/922c5996aada6611b79b53985af7999fc629aee1d5d001b6a22431e18fec/nvidia_cuda_nvrtc_cu11-11.7.99-2-py3-none-manylinux1_x86_64.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/36/92/89cf558b514125d2ebd8344dd2f0533404b416486ff681d5434a5832a019/nvidia_cuda_runtime_cu11-11.7.99-py3-none-manylinux1_x86_64.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/dc/30/66d4347d6e864334da5bb1c7571305e501dcb11b9155971421bb7bb5315f/nvidia_cudnn_cu11-8.5.0.96-2-py3-none-manylinux1_x86_64.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/74/79/b912a77e38e41f15a0581a59f5c3548d1ddfdda3225936fb67c342719e7a/nvidia_cufft_cu11-10.9.0.58-py3-none-manylinux1_x86_64.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/8f/11/af78d54b2420e64a4dd19e704f5bb69dcb5a6a3138b4465d6a48cdf59a21/nvidia_curand_cu11-10.2.10.91-py3-none-manylinux1_x86_64.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/3e/77/66149e3153b19312fb782ea367f3f950123b93916a45538b573fe373570a/nvidia_cusolver_cu11-11.4.0.1-2-py3-none-manylinux1_x86_64.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/ea/6f/6d032cc1bb7db88a989ddce3f4968419a7edeafda362847f42f614b1f845/nvidia_cusparse_cu11-11.7.4.91-py3-none-manylinux1_x86_64.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/55/92/914cdb650b6a5d1478f83148597a25e90ea37d739bd563c5096b0e8a5f43/nvidia_nccl_cu11-2.14.3-py3-none-manylinux1_x86_64.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/23/d5/09493ff0e64fd77523afbbb075108f27a13790479efe86b9ffb4587671b5/nvidia_nvtx_cu11-11.7.91-py3-none-manylinux1_x86_64.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/e3/94/1843518e420fa3ed6919835845df698c7e27e183cb997394e4a670973a65/omegaconf-2.3.0-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/e6/a7/d716cf8836515a85c349ad7fb1279536b7d59a1187b596a69cee66708e75/orjson-3.8.12-cp310-cp310-macosx_11_0_x86_64.macosx_11_0_arm64.macosx_11_0_universal2.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/ab/c3/57f0601a2d4fe15de7a553c00adbc901425661bf048f2a22dfc500caf121/packaging-23.1-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/5e/a8/878258cffd53202a6cc1903c226cf09e58ae3df6b09f8ddfa98033286637/pandocfilters-1.5.0-py2.py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/a2/e2/2f02a7aa739b4a03d20032d2f711e9eb0fd52202debd6df54518eab4403e/papermill-2.4.0-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/05/63/8011bd08a4111858f79d2b09aad86638490d62fbf881c44e434a6dfca87b/parso-0.8.3-py2.py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/be/c8/551a803a6ebb174ec1c124e68b449b98a0961f0b737def601e3c1fbb4cfd/pathspec-0.11.1-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/39/7b/88dbb785881c28a102619d46423cb853b46dbccc70d3ac362d99773a78ce/pexpect-4.8.0-py2.py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/9a/41/220f49aaea88bc6fa6cba8d05ecf24676326156c23b991e80b3f2fc24c77/pickleshare-0.7.5-py2.py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/89/7e/c6ff9ddcf93b9b36c90d88111c4db354afab7f9a58c7ac3257fa717f1268/platformdirs-3.5.1-py3-none-any.whl 
+[INFO] Getting Python data from https://pypi.org/pypi/typing-extensions>=4.5/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/typing-extensions>=4.5/json 
+[WARN] Dependency Package typing-extensions>=4.5 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/5b/8e/6a546e439b4366ab9eab0a736876eb1e1916dd93b4a1fa560ef711d24f8c/prometheus_client-0.16.0-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/87/3f/1f5a0ff475ae6481f4b0d45d4d911824d3218b94ee2a97a8cb84e5569836/prompt_toolkit-3.0.38-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/3b/e4/fee119c206545fd37be1e5fa4eeb0c729a52ec2ade4f728ae1fd1acb2a3a/psutil-5.9.5-cp27-cp27m-macosx_10_9_x86_64.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/22/a6/858897256d0deac81a172289110f31629fc4cee19b6f01283303e18c8db3/ptyprocess-0.7.0-py2.py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/2b/27/77f9d5684e6bce929f5cfe18d6cfbe5133013c06cb2fbf5933670e60761d/pure_eval-0.2.2-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/62/d5/5f610ebe421e85889f2e55e33b7f9a6795bd982198517d912eb1c76e1a53/pycparser-2.21-py2.py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/ea/76/75b1bb82e9bad3e3d656556eaa353d8cd17c4254393b08ec9786ac8ed273/pydot-1.4.2-py2.py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/2d/2d/a7d86ca02119f9d1eed58f471dd8c3abe5a0209e5d4b0cbd425d54dddabd/pygit2-1.12.1-cp310-cp310-macosx_10_9_universal2.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/34/a7/37c8d68532ba71549db4212cb036dbd6161b40e463aba336770e80c72f84/Pygments-2.15.1-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/ec/cd/bd196b2cf014afb1009de8b0f05ecd54011d881944e62763f3c1b1e8ef37/pygtrie-2.5.0-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/6c/10/a7d0fa5baea8fe7b50f448ab742f26f52b80bfca85ac2be9d35cdd9a3246/pyparsing-3.0.9-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/ed/7b/7d032130a6838b179b46dff1ee88909c11d518a10ec9bc70c4b72c7c2f80/pyrsistent-0.19.3-cp310-cp310-macosx_10_9_universal2.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/36/7a/87837f39d0296e723bb9b62bbb257d0355c7f6128853c78955f57342a56d/python_dateutil-2.8.2-py2.py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/35/a6/145655273568ee78a581e734cf35beb9e33a370b29c5d3c8fee3744de29f/python_json_logger-2.0.7-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/7f/99/ad6bd37e748257dd70d6f85d916cafe79c0b0f5e2e95b11f7fbc82bf3110/pytz-2023.3-py2.py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/44/e5/4fea13230bcebf24b28c0efd774a2dd65a0937a2d39e94a4503438b078ed/PyYAML-6.0-cp310-cp310-macosx_10_9_x86_64.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/30/8c/548bd091bbace5ce0463f74471f8fc5d73cd68df8e77d6114e5f2325e52b/pyzmq-25.0.2-cp310-cp310-macosx_10_15_universal2.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/18/3b/7bdbb99256d1406ae6c8904355222c6dc010640e6be158830f48b7097b32/qtconsole-5.4.3-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/51/9f/495736f9bbebc56b9f2ba3d95df1045fd367378254f799e86463b0037ab0/QtPy-2.3.1-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/96/80/034ffeca15c0f4e01b7b9c6ad0fb704b44e190cde4e757edbd60be404c41/requests-2.30.0-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/7b/44/4e421b96b67b2daff264473f7465db72fbdf36a07e05494f50300cc7b0c6/rfc3339_validator-0.1.4-py2.py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/9e/51/17023c0f8f1869d8806b979a2bffa3f861f26a3f1a66b094288323fba52f/rfc3986_validator-0.1.1-py2.py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/39/03/6de23bdd88f5ee7f8b03f94f6e88108f5d7ffe6d207e95cdb06d9aa4cd57/rich-13.3.5-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/23/33/dbc62343de0cf92e0f9c15bc0a287bdaea0953f1cadca0480c78d5ac6641/ruamel.yaml-0.17.26-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/a0/a6/e4b98ce7e3d4534e690ec8b01a2ed674dc31ca9aaae0c259c7afc0828cb7/ruamel.yaml.clib-0.2.7-cp310-cp310-macosx_10_9_universal2.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/ea/18/dab7b60c171b81e0c83cc56594e35319270c8f8b397de7b7c915fe90417a/scmrepo-1.0.3-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/a9/78/e4df1e080ed790acf3a704edf521006dd96b9841bd2e2a462c0d255e0565/Send2Trash-1.8.2-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/c3/46/644a4df3061e96ef24998c0623d3b12287090ab9a0e0d6ad8408f7b87283/shortuuid-1.0.11-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/23/f4/1f6eb1dc19092cfbdd3090f6cbc66e0689d827f4cbd9e63fc1cef604d5af/shtab-1.6.1-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/6d/01/7caa71608bc29952ae09b0be63a539e50d2484bc37747797a66a60679856/smmap-5.0.0-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/c3/a0/5dba8ed157b0136607c7f2151db695885606968d1fae123dc3391e0cfdbf/sniffio-1.3.0-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/49/37/673d6490efc51ec46d198c75903d99de59baffdd47aea3d071b80a9e4e89/soupsieve-2.4.1-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/66/5e/1733d6b590d069525e310ef414b43797f3496c7d4d7c517ab5d8f58de43d/sqltrie-0.3.1-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/6a/81/aa96c25c27f78cdc444fec27d80f4c05194c591465e491a1358d8a035bc1/stack_data-0.6.2-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/d2/05/e6600db80270777c4a64238a98d442f0fd07cc8915be2a1c16da7f2b9e74/sympy-1.12-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/40/44/4a5f08c96eb108af5cb50b41f76142f0afa346dfa99d5296fe7202a11854/tabulate-0.9.0-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/e7/b0/c23bd61e1b32c9b96fbca996c87784e196a812da8d621d8d04851f6c8181/tenacity-8.2.2-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/84/a7/c7628d79651b8c8c775d27b374315a825141b5783512e82026fb210dd639/terminado-0.17.1-py3-none-any.whl 
+[INFO] Getting Python data from https://pypi.org/pypi/pywinpty>=1.1.0/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/pywinpty>=1.1.0/json 
+[WARN] Dependency Package pywinpty>=1.1.0 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/tornado>=6.1.0/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/tornado>=6.1.0/json 
+[WARN] Dependency Package tornado>=6.1.0 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/77/9c/a53e561d496ee5866bbeea4d3a850b3b545ed854f8a21007c1e0d872e94d/textwrap3-0.9.2-py2.py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/da/99/fd23634d6962c2791fb8cb6ccae1f05dcbfc39bce36bba8b1c9a8d92eae8/tinycss2-1.2.1-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/ef/a8/b1c193be753c02e2a94af6e37ee45d3378a74d44fe778c2434a63af92731/tomlkit-0.11.8-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/8c/4d/17e07377c9c3d1a0c4eb3fde1c7c16b5a0ce6133ddbabc08ceef6b7f2645/torch-2.0.1-cp310-cp310-manylinux1_x86_64.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/30/3c/68e9896ce47dd4acdb7e27945046f139db2862d3b990c655a5c0627c9a05/tornado-6.3.2-cp38-abi3-macosx_10_9_universal2.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/e6/02/a2cff6306177ae6bc73bc0665065de51dfb3b9db7373e122e2735faf0d97/tqdm-4.65.0-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/77/75/c28e9ef7abec2b7e9ff35aea3e0be6c1aceaf7873c26c95ae1f0d594de71/traitlets-5.9.0-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/ca/31/ff6be541195daf77aa5c72303b2354661a69e717967d44d91eb4f3fdce32/triton-2.0.0-1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/31/25/5abcd82372d3d4a3932e1fa8c3dbf9efac10cc7c0d16e78467460571b404/typing_extensions-4.5.0-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/c0/db/d4f9c75b43541f7235daf4d13eb43f4491f9d5f5df45ce41daeed3a903f6/uri_template-1.2.0-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/4b/1d/f8383ef593114755429c307449e7717b87044b3bcd5f7860b89b1f759e34/urllib3-2.0.2-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/8d/61/a7badb48186919a9fd7cf0ef427cab6d16e0ed474035c36fa64ddd72bfa2/vine-5.0.0-py2.py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/a7/68/927add5dfd55a0d666ffc8939ff4390b76ca3ffbc36c12369f9a034393cb/voluptuous-0.13.1-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/06/fd/58b82550ebe4883bb2a5e1b6c14d8702b5ce0f36c58470bba51dc777df46/watchdog-3.0.0-cp310-cp310-macosx_10_9_universal2.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/20/f4/c0584a25144ce20bfcf1aecd041768b8c762c1eb0aa77502a3f0baa83f11/wcwidth-0.2.6-py2.py3-none-any.whl 
+[INFO] Getting Python data from https://pypi.org/pypi/backports.functools-lru-cache/json 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/d5/e1/3e9013159b4cbb71df9bd7611cbf90dc2c621c8aeeb677fc41dad72f2261/webcolors-1.13-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/f4/24/2a3e3df732393fed8b3ebf2ec078f05546de641fe1b667ee316ec1dcf3b7/webencodings-0.5.1-py2.py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/6d/9a/6c793729c9d48fcca155ce55e4dfafacffb7fb52a62e3ae2198846c31af6/websocket_client-1.5.1-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/2e/f0/6e3a0d9c1ef015322cad1dd2191c338349b41151e4dc5e7ae984700c9dd2/widgetsnbextension-4.0.7-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/eb/cb/4970008c85810c7d0e154ac5d746451b04476ac1dd85dc538563a1c04698/yarl-1.9.2-cp310-cp310-macosx_10_9_universal2.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/a7/aa/47f00f32605177a945f3a1b36a1b2bb9a39260566541280fcee27cbff5cf/zc.lockfile-3.0.post1-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/5b/fa/c9e82bbe1af6266adf08afb563905eb87cab83fde00a0a08963510621047/zipp-3.15.0-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/e8/b6/8d17e169d577ca7678b11cd0d3ceebb0a6089a7f4a2de4b945fe4b1c86db/asynctest-0.13.0-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/fe/ca/75fac5856ab5cfa51bbbcefa250182e50441074fdc3f803f6e76451fab43/dataclasses-0.8-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/0b/cb/da856e81731833b94da70a08712f658416266a5fb2a9d9e426c8061becef/typing-3.10.0.0-py2-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/3c/4d/506c1dc1162f2f94f6b3146bda4a9cea6f7dfa213f7969fa885c193c9648/flufl.lock-7.1.1-py3-none-any.whl 
+[INFO] Getting Python data from https://pypi.org/pypi/atpublic>=2.3/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/atpublic>=2.3/json 
+[WARN] Dependency Package atpublic>=2.3 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/psutil>=5.9.0/json 
+[WARN] Received 404 Not Found from https://pypi.org/pypi/psutil>=5.9.0/json 
+[WARN] Dependency Package psutil>=5.9.0 not found in Pypi. Skipping package 
+[INFO] Getting Python data from https://pypi.org/pypi/typing_extensions/json 
+[VERBOSE] Retrieved cached Python data from https://files.pythonhosted.org/packages/23/33/dbc62343de0cf92e0f9c15bc0a287bdaea0953f1cadca0480c78d5ac6641/ruamel.yaml-0.17.26-py3-none-any.whl 
+[INFO] Getting Python data from https://pypi.org/pypi/ruamel.yaml.clib/json 
+[VERBOSE] Retrieved cached Python data from https://files.pythonhosted.org/packages/a7/aa/47f00f32605177a945f3a1b36a1b2bb9a39260566541280fcee27cbff5cf/zc.lockfile-3.0.post1-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/08/dc/28c668097edfaf4eac4617ef7adf081b9cf50d254672fcf399a70f5efc41/pywin32-306-cp310-cp310-win32.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/09/eb/4af4bcd5b8731366b676192675221c5324394a580dfae469d498313b5c4a/pathlib2-2.3.7.post1-py2.py3-none-any.whl 
+[INFO] Getting Python data from https://pypi.org/pypi/scandir/json 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/48/19/f2090f7dad41e225c7f2326e4cfe6fff49e57dedb5b53636c9551f86b069/cached_property-1.5.2-py2.py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/38/71/c13ea695a4393639830bf96baea956538ba7a9d06fcce7cef10bfff20f72/importlib_resources-5.12.0-py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/41/4a/381783f26df413dde4c70c734163d88ca0550a1361cb74a1c68f47550619/appnope-0.1.3-py2.py3-none-any.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/a4/2e/7aabef8a774819d4851112388b6646bd65782adfcec6fbbf2e309ddb07fb/pywinpty-2.0.10-cp310-none-win_amd64.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/e5/c1/1a48a4bb9b515480d6c666977eeca9243be9fa9e6fb5a34be0ad9627f737/backports.functools_lru_cache-1.6.4-py2.py3-none-any.whl 
+[VERBOSE] Retrieved cached Python data from https://files.pythonhosted.org/packages/31/25/5abcd82372d3d4a3932e1fa8c3dbf9efac10cc7c0d16e78467460571b404/typing_extensions-4.5.0-py3-none-any.whl 
+[VERBOSE] Retrieved cached Python data from https://files.pythonhosted.org/packages/a0/a6/e4b98ce7e3d4534e690ec8b01a2ed674dc31ca9aaae0c259c7afc0828cb7/ruamel.yaml.clib-0.2.7-cp310-cp310-macosx_10_9_universal2.whl 
+[INFO] Getting Python data from https://files.pythonhosted.org/packages/c6/8c/43cc3799c79c435d1a236783993b2e04a2c750b4f91ef3630ec442490df5/scandir-1.10.0-cp27-cp27m-win32.whl 
+[INFO]  
+[INFO] _______________________________________________________________________________________________________________________________________ 
+[INFO] |Component Detector Id         |Detection Time                |# Components Found            |# Explicitly Referenced                 | 
+[INFO] |______________________________|______________________________|______________________________|________________________________________| 
+[INFO] |CocoaPods                     |0.13 seconds                  |0                             |0                                       | 
+[INFO] |______________________________|______________________________|______________________________|________________________________________| 
+[INFO] |Go                            |0.13 seconds                  |0                             |0                                       | 
+[INFO] |______________________________|______________________________|______________________________|________________________________________| 
+[INFO] |Gradle                        |0.13 seconds                  |0                             |0                                       | 
+[INFO] |______________________________|______________________________|______________________________|________________________________________| 
+[INFO] |Ivy (Beta)                    |0.13 seconds                  |0                             |0                                       | 
+[INFO] |______________________________|______________________________|______________________________|________________________________________| 
+[INFO] |Linux                         |0.094 seconds                 |0                             |0                                       | 
+[INFO] |______________________________|______________________________|______________________________|________________________________________| 
+[INFO] |MvnCli                        |0.13 seconds                  |0                             |0                                       | 
+[INFO] |______________________________|______________________________|______________________________|________________________________________| 
+[INFO] |Npm                           |0.13 seconds                  |0                             |0                                       | 
+[INFO] |______________________________|______________________________|______________________________|________________________________________| 
+[INFO] |NpmWithRoots                  |0.13 seconds                  |0                             |0                                       | 
+[INFO] |______________________________|______________________________|______________________________|________________________________________| 
+[INFO] |NuGet                         |0.13 seconds                  |0                             |0                                       | 
+[INFO] |______________________________|______________________________|______________________________|________________________________________| 
+[INFO] |NuGetPackagesConfig           |0.13 seconds                  |0                             |0                                       | 
+[INFO] |______________________________|______________________________|______________________________|________________________________________| 
+[INFO] |NuGetProjectCentric           |0.14 seconds                  |0                             |0                                       | 
+[INFO] |______________________________|______________________________|______________________________|________________________________________| 
+[INFO] |Pip                           |2.1e+02 seconds               |206                           |188                                     | 
+[INFO] |______________________________|______________________________|______________________________|________________________________________| 
+[INFO] |Pnpm                          |0.13 seconds                  |0                             |0                                       | 
+[INFO] |______________________________|______________________________|______________________________|________________________________________| 
+[INFO] |Poetry (Beta)                 |0.13 seconds                  |0                             |0                                       | 
+[INFO] |______________________________|______________________________|______________________________|________________________________________| 
+[INFO] |Ruby                          |0.13 seconds                  |0                             |0                                       | 
+[INFO] |______________________________|______________________________|______________________________|________________________________________| 
+[INFO] |RustCrateDetector             |0.13 seconds                  |0                             |0                                       | 
+[INFO] |______________________________|______________________________|______________________________|________________________________________| 
+[INFO] |SPDX22SBOM                    |0.14 seconds                  |0                             |0                                       | 
+[INFO] |______________________________|______________________________|______________________________|________________________________________| 
+[INFO] |Vcpkg (Beta)                  |0.13 seconds                  |0                             |0                                       | 
+[INFO] |______________________________|______________________________|______________________________|________________________________________| 
+[INFO] |Yarn                          |0.14 seconds                  |0                             |0                                       | 
+[INFO] |______________________________|______________________________|______________________________|________________________________________| 
+[INFO] |Total                         |2.1e+02 seconds               |206                           |188                                     | 
+[INFO] |______________________________|______________________________|______________________________|________________________________________| 
+[INFO]  
+
+[INFO] Detection time: 206.7791573 seconds. 
+[INFO] Scan Manifest file: /var/folders/w0/xgn3_v7168nfy385xk_csk4c0000gn/T/ScanManifest_20230522144514708.json 
+##[debug]Using the DirectoryTraversingFileToJsonProvider provider for the files workflow.
+##[debug]Enumerating files under the root path frameworks-getting-started.
+##[debug]Splitting the workflow into 8 threads.
+##[debug]Running the generation workflow ...
+##[debug]Using the CGScannedPackagesProvider provider for the packages workflow.
+##[debug]Splitting the workflow into 8 threads.
+##[debug]Using cached CD scan result for the call with the same arguments
+##[debug]Running the generation workflow ...
+##[debug]Wrote 206 package elements in the SBOM.
+##[debug]Found value for header PackageName in internal metadata.
+##[debug]Found value for header PackageVersion in internal metadata.
+##[debug]Found value for header PackageSupplier in internal metadata.
+##[debug]Using the CGExternalDocumentReferenceProvider provider for the external documents workflow.
+##[debug]Using the CGExternalDocumentReferenceProvider provider for the external documents workflow.
+##[debug]Splitting the workflow into 8 threads.
+##[debug]Running the generation workflow ...
+##[debug]Using cached CD scan result for the call with the same arguments
+##[debug]Wrote 207 relationship elements in the SBOM.
+##[debug]Building the header object.
+##[debug]Found value for header SBOMToolName in internal metadata.
+##[debug]Found value for header SBOMToolVersion in internal metadata.
+##[debug]Found value for header PackageName in internal metadata.
+##[debug]Found value for header PackageVersion in internal metadata.
+##[debug]Found value for header PackageSupplier in internal metadata.
+##[information]Finished execution of the Generate workflow SBOMTelemetry {Result=Success, Errors=ErrorContainer`1 {Count=0, Errors=[]}, Parameters=Configuration {BuildDropPath=ConfigurationSetting`1 {Value="frameworks-getting-started", Source=CommandLine, IsDefaultSource=False}, BuildComponentPath=ConfigurationSetting`1 {Value="frameworks-getting-started", Source=CommandLine, IsDefaultSource=False}, BuildListFile=null, ManifestPath=null, ManifestDirPath=ConfigurationSetting`1 {Value="frameworks-getting-started/_manifest", Source=Default, IsDefaultSource=True}, OutputPath=null, Parallelism=ConfigurationSetting`1 {Value=8, Source=Default, IsDefaultSource=True}, Verbosity=ConfigurationSetting`1 {Value=Verbose, Source=CommandLine, IsDefaultSource=False}, ConfigFilePath=null, ManifestInfo=ConfigurationSetting`1 {Value=null, Source=Default, IsDefaultSource=True}, HashAlgorithm=ConfigurationSetting`1 {Value=AlgorithmName {Name="SHA256"}, Source=Default, IsDefaultSource=True}, RootPathFilter=null, CatalogFilePath=null, ValidateSignature=ConfigurationSetting`1 {Value=False, Source=Default, IsDefaultSource=True}, IgnoreMissing=ConfigurationSetting`1 {Value=False, Source=Default, IsDefaultSource=True}, ManifestToolAction=Generate, PackageName=ConfigurationSetting`1 {Value="-test", Source=CommandLine, IsDefaultSource=False}, PackageVersion=ConfigurationSetting`1 {Value="1.0.0", Source=CommandLine, IsDefaultSource=False}, PackageSupplier=ConfigurationSetting`1 {Value="NDCRC", Source=CommandLine, IsDefaultSource=False}, FilesList=null, PackagesList=null, TelemetryFilePath=null, DockerImagesToScan=null, ExternalDocumentReferenceListFile=null, AdditionalComponentDetectorArgs=null, NamespaceUriUniquePart=null, NamespaceUriBase=ConfigurationSetting`1 {Value="https://spdx.org/spdxdocs/sbom-tool-1.1.1-9993f1c3-479c-4c9c-9d40-4c2226906e3f", Source=Default, IsDefaultSource=True}, GenerationTimestamp=null, FollowSymlinks=ConfigurationSetting`1 {Value=True, Source=Default, IsDefaultSource=True}, DeleteManifestDirIfPresent=ConfigurationSetting`1 {Value=False, Source=Default, IsDefaultSource=True}}, SBOMFormatsUsed=[SBOMFile {SbomFormatName=ManifestInfo {Name="SPDX", Version="2.2"}, SbomFilePath="frameworks-getting-started/_manifest/spdx_2.2/manifest.spdx.json", FileSizeInBytes=19724929}], Timings=[Timing {EventName="Metadata build time for SPDX:2.2 format", TimeSpan="00:00:00.0085422"}, Timing {EventName="Relationships generation time", TimeSpan="00:00:00.0252671"}, Timing {EventName="External document reference generation time", TimeSpan="00:00:00.0082156"}, Timing {EventName="Packages generation time", TimeSpan="00:00:00.1417459"}, Timing {EventName="Files generation time", TimeSpan="00:03:31.6353623"}, Timing {EventName="Total generation time", TimeSpan="00:03:31.9407317"}], Switches={}, Exceptions={}}
+##[debug]Wrote telemetry object to path 

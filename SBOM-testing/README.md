@@ -36,3 +36,11 @@ SPDX Version: 2.2
 - files: 22981
 - relationships: 207
   - package to root relationship only
+
+looks like its getting the SPDXID's wrong
+
+Example Package: aiohttp
+
+**Github Generated:** `SPDXID	:	SPDXRef-pip-aiohttp-3.8.4`
+
+**Tool Generated:** `SPDXID	:	SPDXRef-File--.venv-lib-python3.11-site-packages-aiohttp-retry-2.8.3.dist-info-top-level.txt-AB5E1DC6CC3ACE9E1BEE2C852488D7C5F253484A`
