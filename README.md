@@ -23,6 +23,8 @@ toolkit.
     Recongition](https://github.com/nd-crane/Explain2Me-Framework-Example)
     -\> This repo contains analysis on GradCAM output and emphasizes our
     way of experimentation.
+3.  [Computer Vision analysis on Segmentation and Object Identification]
+    -\> In Progress
 
 ## Recommended Tools
 
