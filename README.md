@@ -9,7 +9,7 @@ were inspired and developed from this [framework
 example](https://github.com/nd-crane/framework-example). You can also
 find a high level overview of our TAI frameworks collaboration in 
 this workshop poster:
-[TAI Frameworks Example Apps](https://)
+[TAI Frameworks Example Apps](https://github.com/nd-crane/frameworks-getting-started/blob/main/TAI%20Frameworks%20Apps%20Poster%20Spring23.pdf)
 
 
 ## Example Projects
