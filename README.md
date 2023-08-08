@@ -6,7 +6,9 @@ frameworks-getting-started
 This written tutorial will show you how to setup and use the tools and
 best practices developed by the frameworks team. These best practices
 were inspired and developed from this [framework
-example](https://github.com/nd-crane/framework-example).
+example](https://github.com/nd-crane/framework-example). You can also
+find a high level overview of our TAI frameworks collaboration in this
+
 
 ## Example Projects
 
